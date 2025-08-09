@@ -1,8 +1,13 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1754770581
+::res://::1754776364
 icon.svg::CompressedTexture2D::2302702605759342015::1754448302::1754449158::1::::<><><>0<>0<>041e659397fd07de0c47845bfcf5b6d8<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-node_2d.tscn::PackedScene::4307609855770331424::1754449179::0::1::::<><><>0<>0<><>::
+Terrain (16x16).png::CompressedTexture2D::8767513095748929469::1754775504::1754775504::1::::<><><>0<>0<>a823ba487563d797637dce1315b95c5d<>res://.godot/imported/Terrain (16x16).png-f072e8a5f99e915c05031c83401c87a9.ctex::
+tileset_water.png::CompressedTexture2D::3281508379426260176::1754775897::1754775897::1::::<><><>0<>0<>847edd4a203ca8c3f64fe6a30e85b5bf<>res://.godot/imported/tileset_water.png-a44f716a2aa89e19fcffffe1bd1e5355.ctex::
 uno.tscn::PackedScene::7706168215882501142::1754448302::0::1::::<><><>0<>0<><>::
 Virtual Guy.png::CompressedTexture2D::858579040247035765::1754770581::1754770581::1::::<><><>0<>0<>977825c2138fe789564918f8edd9670f<>res://.godot/imported/Virtual Guy.png-6239cfde82444e9d6ba22b8b456dabde.ctex::
 ::res://juego-de-POLOValdivia1---intento1/::1754448326
 README.md::TextFile::-1::1754448302::0::1::::<><><>0<>0<><>::
+::res://jugador/::1754776370
+player.tscn::PackedScene::5983778572291639676::1754776370::0::1::::<><><>0<>0<><>::uid://mh5w3c4bygk0::::res://Virtual Guy.png<>uid://c31sw4cimprf::::res://jugador/player.gd
+player.gd::GDScript::199792250907037027::1754775045::0::1::::<>CharacterBody2D<><>0<>0<><>::
+world.tscn::PackedScene::3198734084845412846::1754776370::0::1::::<><><>0<>0<><>::uid://crit7uoovl32o::::res://jugador/player.tscn
