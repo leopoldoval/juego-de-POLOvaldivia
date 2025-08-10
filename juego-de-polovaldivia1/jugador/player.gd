@@ -1,5 +1,5 @@
 extends CharacterBody2D
-
+class_name Player
 
 var speed := 120
 var direccion := 0.0

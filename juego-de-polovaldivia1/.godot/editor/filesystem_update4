@@ -1,4 +1,7 @@
-res://jugador/player.gd
-res://jugador/player.tscn
-res://jugador/world.tscn
 res://world.tscn
+res://jugador/player.tscn
+res://coleccionables/fruta.gd
+res://coleccionables/fruta.tscn
+res://jugador/player.gd
+res://global.tscn
+res://global.gd

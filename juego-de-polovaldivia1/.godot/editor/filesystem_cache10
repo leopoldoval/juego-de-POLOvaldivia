@@ -1,19 +1,20 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1754778111
+::res://::1754782244
 icon.svg::CompressedTexture2D/CompressedTexture2D::2302702605759342015::1754448302::1754449158::1::::<><><>0<>0<>041e659397fd07de0c47845bfcf5b6d8<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+Kiwi.png::CompressedTexture2D::495701025879692052::1754782244::1754782244::1::::<><><>0<>0<>7cb91ebe77b9110a242e0544e3408eba<>res://.godot/imported/Kiwi.png-46a3ec2b10d1236b326b2d6e6fe6fbec.ctex::
 Terrain (16x16).png::CompressedTexture2D/CompressedTexture2D::8767513095748929469::1754775504::1754775504::1::::<><><>0<>0<>a823ba487563d797637dce1315b95c5d<>res://.godot/imported/Terrain (16x16).png-f072e8a5f99e915c05031c83401c87a9.ctex::
 tileset_water.png::CompressedTexture2D/CompressedTexture2D::3281508379426260176::1754775897::1754775897::1::::<><><>0<>0<>847edd4a203ca8c3f64fe6a30e85b5bf<>res://.godot/imported/tileset_water.png-a44f716a2aa89e19fcffffe1bd1e5355.ctex::
 uno.tscn::PackedScene/PackedScene::7706168215882501142::1754448302::0::1::::<><><>0<>0<><>::
 Virtual Guy.png::CompressedTexture2D/CompressedTexture2D::858579040247035765::1754770581::1754770581::1::::<><><>0<>0<>977825c2138fe789564918f8edd9670f<>res://.godot/imported/Virtual Guy.png-6239cfde82444e9d6ba22b8b456dabde.ctex::
-world.tscn::PackedScene/PackedScene::3198734084845412846::1754777950::0::1::::<><><>0<>0<><>::uid://crit7uoovl32o::::res://jugador/player.tscn<>uid://dw6bwowkxr0mj::::res://Terrain (16x16).png
+world.tscn::PackedScene::3198734084845412846::1754781135::0::1::::<><><>0<>0<><>::uid://crit7uoovl32o::::res://jugador/player.tscn<>uid://dw6bwowkxr0mj::::res://Terrain (16x16).png<>uid://xb0opuo5clg6::::res://parallax background/plx-1.png<>uid://dcqdq20mvuyqo::::res://parallax background/plx-2.png<>uid://i5iiopoj5r4r::::res://parallax background/plx-3.png<>uid://ho3eyc2bte1f::::res://parallax background/plx-4.png<>uid://bcigxibbwnkuo::::res://parallax background/plx-5.png
 ::res://juego-de-POLOValdivia1---intento1/::1754448326
 README.md::TextFile/TextFile::-1::1754448302::0::1::::<><><>0<>0<><>::
-::res://jugador/::1754778111
-player.gd::GDScript/GDScript::199792250907037027::1754775045::0::1::::<>CharacterBody2D<><>0<>0<><>::
-player.tscn::PackedScene/PackedScene::5983778572291639676::1754777950::0::1::::<><><>0<>0<><>::uid://mh5w3c4bygk0::::res://Virtual Guy.png<>uid://c31sw4cimprf::::res://jugador/player.gd
-::res://parallax background/::1754778108
-plx-1.png::CompressedTexture2D::1617951526785252807::1754778107::1754778111::1::::<><><>0<>0<>15aaed476260e0fe9aad2ee4ff981ecc<>res://.godot/imported/plx-1.png-baa245c31b752ab4414bf0bd223bb412.ctex::
-plx-2.png::CompressedTexture2D::7332881963425768894::1754778107::1754778111::1::::<><><>0<>0<>2f595e071ba081ca07004e9e9af7595a<>res://.godot/imported/plx-2.png-0490e03f52c3262844809f27de5d40f0.ctex::
-plx-3.png::CompressedTexture2D::623942863167714223::1754778107::1754778111::1::::<><><>0<>0<>fcaec0798b59035f7d514ddbffc1169b<>res://.godot/imported/plx-3.png-0ee0d563e0cf51ece972a5359da6e200.ctex::
-plx-4.png::CompressedTexture2D::521931677875001489::1754778107::1754778111::1::::<><><>0<>0<>8748d7dc7258b0631e9e6f33302f3158<>res://.godot/imported/plx-4.png-14ebe197062ad8c2b129a5ba9241e716.ctex::
-plx-5.png::CompressedTexture2D::2543719190025019014::1754778107::1754778111::1::::<><><>0<>0<>870183530dd809a559f72d43adc4e550<>res://.godot/imported/plx-5.png-3ee96c5a3dac287fcd081cc62475af73.ctex::
+::res://jugador/::1754781135
+player.gd::GDScript::199792250907037027::1754775045::0::1::::<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::5983778572291639676::1754781135::0::1::::<><><>0<>0<><>::uid://mh5w3c4bygk0::::res://Virtual Guy.png<>uid://c31sw4cimprf::::res://jugador/player.gd
+::res://parallax background/::1754778111
+plx-1.png::CompressedTexture2D/CompressedTexture2D::1617951526785252807::1754778107::1754778111::1::::<><><>0<>0<>15aaed476260e0fe9aad2ee4ff981ecc<>res://.godot/imported/plx-1.png-baa245c31b752ab4414bf0bd223bb412.ctex::
+plx-2.png::CompressedTexture2D/CompressedTexture2D::7332881963425768894::1754778107::1754778111::1::::<><><>0<>0<>2f595e071ba081ca07004e9e9af7595a<>res://.godot/imported/plx-2.png-0490e03f52c3262844809f27de5d40f0.ctex::
+plx-3.png::CompressedTexture2D/CompressedTexture2D::623942863167714223::1754778107::1754778111::1::::<><><>0<>0<>fcaec0798b59035f7d514ddbffc1169b<>res://.godot/imported/plx-3.png-0ee0d563e0cf51ece972a5359da6e200.ctex::
+plx-4.png::CompressedTexture2D/CompressedTexture2D::521931677875001489::1754778107::1754778111::1::::<><><>0<>0<>8748d7dc7258b0631e9e6f33302f3158<>res://.godot/imported/plx-4.png-14ebe197062ad8c2b129a5ba9241e716.ctex::
+plx-5.png::CompressedTexture2D/CompressedTexture2D::2543719190025019014::1754778107::1754778111::1::::<><><>0<>0<>870183530dd809a559f72d43adc4e550<>res://.godot/imported/plx-5.png-3ee96c5a3dac287fcd081cc62475af73.ctex::
