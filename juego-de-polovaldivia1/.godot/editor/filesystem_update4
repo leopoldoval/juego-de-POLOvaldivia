@@ -5,3 +5,5 @@ res://coleccionables/fruta.tscn
 res://jugador/player.gd
 res://global.tscn
 res://global.gd
+res://plataforma/plataforma.gd
+res://plataforma/plataforma.tscn

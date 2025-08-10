@@ -1,20 +1,32 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1754782244
+::res://::1754801668
+b3.png::CompressedTexture2D::5809969592723696242::1754800336::1754800336::1::::<><><>0<>0<>4ea410fd05c14817e2bfecebbf7c5cda<>res://.godot/imported/b3.png-9101af9a549b8508545afb3d5c45b823.ctex::
+End (Pressed) (64x64).png::CompressedTexture2D::1967488209301380115::1754800270::1754800271::1::::<><><>0<>0<>0a3cc88c4fec448905759e1f959237e8<>res://.godot/imported/End (Pressed) (64x64).png-0df7924d2d99dc07cdb219bb3e7f937f.ctex::
 icon.svg::CompressedTexture2D/CompressedTexture2D::2302702605759342015::1754448302::1754449158::1::::<><><>0<>0<>041e659397fd07de0c47845bfcf5b6d8<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 Kiwi.png::CompressedTexture2D::495701025879692052::1754782244::1754782244::1::::<><><>0<>0<>7cb91ebe77b9110a242e0544e3408eba<>res://.godot/imported/Kiwi.png-46a3ec2b10d1236b326b2d6e6fe6fbec.ctex::
+global.gd::GDScript::5418190593006720573::1754787075::0::1::::<>Node<><>0<>0<><>::
+global.tscn::PackedScene::2770504947852055491::1754801544::0::1::::<><><>0<>0<><>::uid://cjgu2pom5hcin::::res://global.gd
 Terrain (16x16).png::CompressedTexture2D/CompressedTexture2D::8767513095748929469::1754775504::1754775504::1::::<><><>0<>0<>a823ba487563d797637dce1315b95c5d<>res://.godot/imported/Terrain (16x16).png-f072e8a5f99e915c05031c83401c87a9.ctex::
+tileset_forest.png::CompressedTexture2D::8006728297737287564::1754799441::1754799441::1::::<><><>0<>0<>3b8b982aaae320f3878d0d0baef32e52<>res://.godot/imported/tileset_forest.png-aad38bf49fb69031986e84e85197bb74.ctex::
 tileset_water.png::CompressedTexture2D/CompressedTexture2D::3281508379426260176::1754775897::1754775897::1::::<><><>0<>0<>847edd4a203ca8c3f64fe6a30e85b5bf<>res://.godot/imported/tileset_water.png-a44f716a2aa89e19fcffffe1bd1e5355.ctex::
+TX Village Props.png::CompressedTexture2D::2387064644010093864::1754801668::1754801669::1::::<><><>0<>0<>a2065bd77e08fc11b795067217408282<>res://.godot/imported/TX Village Props.png-1c0984bd0ed7914fef527bd217081b9a.ctex::
 uno.tscn::PackedScene/PackedScene::7706168215882501142::1754448302::0::1::::<><><>0<>0<><>::
 Virtual Guy.png::CompressedTexture2D/CompressedTexture2D::858579040247035765::1754770581::1754770581::1::::<><><>0<>0<>977825c2138fe789564918f8edd9670f<>res://.godot/imported/Virtual Guy.png-6239cfde82444e9d6ba22b8b456dabde.ctex::
-world.tscn::PackedScene::3198734084845412846::1754781135::0::1::::<><><>0<>0<><>::uid://crit7uoovl32o::::res://jugador/player.tscn<>uid://dw6bwowkxr0mj::::res://Terrain (16x16).png<>uid://xb0opuo5clg6::::res://parallax background/plx-1.png<>uid://dcqdq20mvuyqo::::res://parallax background/plx-2.png<>uid://i5iiopoj5r4r::::res://parallax background/plx-3.png<>uid://ho3eyc2bte1f::::res://parallax background/plx-4.png<>uid://bcigxibbwnkuo::::res://parallax background/plx-5.png
+world.tscn::PackedScene::3198734084845412846::1754801544::0::1::::<><><>0<>0<><>::uid://crit7uoovl32o::::res://jugador/player.tscn<>uid://dw6bwowkxr0mj::::res://Terrain (16x16).png<>uid://xb0opuo5clg6::::res://parallax background/plx-1.png<>uid://dcqdq20mvuyqo::::res://parallax background/plx-2.png<>uid://i5iiopoj5r4r::::res://parallax background/plx-3.png<>uid://ho3eyc2bte1f::::res://parallax background/plx-4.png<>uid://bcigxibbwnkuo::::res://parallax background/plx-5.png<>uid://don8qurrb3xfo::::res://coleccionables/fruta.tscn<>uid://bla8aak5n4bbx::::res://plataforma/plataforma.tscn
+::res://coleccionables/::1754801544
+fruta.tscn::PackedScene::8170776083781849060::1754801544::0::1::::<><><>0<>0<><>::uid://hceegy873sns::::res://Kiwi.png<>uid://bqyj15vf58mla::::res://coleccionables/fruta.gd
+fruta.gd::GDScript::3559581739985454830::1754785742::0::1::::<>Area2D<><>0<>0<><>::
 ::res://juego-de-POLOValdivia1---intento1/::1754448326
 README.md::TextFile/TextFile::-1::1754448302::0::1::::<><><>0<>0<><>::
-::res://jugador/::1754781135
-player.gd::GDScript::199792250907037027::1754775045::0::1::::<>CharacterBody2D<><>0<>0<><>::
-player.tscn::PackedScene::5983778572291639676::1754781135::0::1::::<><><>0<>0<><>::uid://mh5w3c4bygk0::::res://Virtual Guy.png<>uid://c31sw4cimprf::::res://jugador/player.gd
+::res://jugador/::1754801544
+player.gd::GDScript::199792250907037027::1754787075::0::1::::Player<>CharacterBody2D<><>0<>0<><>::
+player.tscn::PackedScene::5983778572291639676::1754801544::0::1::::<><><>0<>0<><>::uid://mh5w3c4bygk0::::res://Virtual Guy.png<>uid://c31sw4cimprf::::res://jugador/player.gd
 ::res://parallax background/::1754778111
 plx-1.png::CompressedTexture2D/CompressedTexture2D::1617951526785252807::1754778107::1754778111::1::::<><><>0<>0<>15aaed476260e0fe9aad2ee4ff981ecc<>res://.godot/imported/plx-1.png-baa245c31b752ab4414bf0bd223bb412.ctex::
 plx-2.png::CompressedTexture2D/CompressedTexture2D::7332881963425768894::1754778107::1754778111::1::::<><><>0<>0<>2f595e071ba081ca07004e9e9af7595a<>res://.godot/imported/plx-2.png-0490e03f52c3262844809f27de5d40f0.ctex::
 plx-3.png::CompressedTexture2D/CompressedTexture2D::623942863167714223::1754778107::1754778111::1::::<><><>0<>0<>fcaec0798b59035f7d514ddbffc1169b<>res://.godot/imported/plx-3.png-0ee0d563e0cf51ece972a5359da6e200.ctex::
 plx-4.png::CompressedTexture2D/CompressedTexture2D::521931677875001489::1754778107::1754778111::1::::<><><>0<>0<>8748d7dc7258b0631e9e6f33302f3158<>res://.godot/imported/plx-4.png-14ebe197062ad8c2b129a5ba9241e716.ctex::
 plx-5.png::CompressedTexture2D/CompressedTexture2D::2543719190025019014::1754778107::1754778111::1::::<><><>0<>0<>870183530dd809a559f72d43adc4e550<>res://.godot/imported/plx-5.png-3ee96c5a3dac287fcd081cc62475af73.ctex::
+::res://plataforma/::1754801544
+plataforma.tscn::PackedScene::3160501641302370869::1754801544::0::1::::<><><>0<>0<><>::uid://co1nl587uv3ry::::res://b3.png<>uid://cp4w3tvimtkij::::res://plataforma/plataforma.gd
+plataforma.gd::GDScript::5886927783659444185::1754801102::0::1::::<>Area2D<><>0<>0<><>::

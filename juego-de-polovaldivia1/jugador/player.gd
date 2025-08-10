@@ -12,7 +12,8 @@ const gravity := 9
 
 func _ready() -> void:
 	Global.Player = self
-
+	add_to_group("Player")
+	
 func _physics_process(delta):
 	direccion = Input.get_axis("ui_left","ui_right")
 	velocity.x = direccion * speed
@@ -34,4 +35,9 @@ func _physics_process(delta):
 func actualizaInterfazFrutas():
 	frutaslabel.text = str(Global.frutas) 
 	
+
+
+
+func _on_reset_area_body_entered(body: Node2D) -> void:
+	get_tree().reload_current_scene()
 	
