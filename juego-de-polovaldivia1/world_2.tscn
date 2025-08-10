@@ -1731,6 +1731,33 @@ _data = {
 }
 point_count = 2
 
+[sub_resource type="Animation" id="Animation_eiokd"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PathFollow2D:progress_ratio")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("PathFollow2D:rotation")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [0.0]
+}
+
 [sub_resource type="Animation" id="Animation_yuvu5"]
 resource_name = "movimiento a subir "
 length = 4.0
@@ -1760,7 +1787,19 @@ tracks/1/keys = {
 "values": [0.0, 0.0]
 }
 
-[sub_resource type="Animation" id="Animation_eiokd"]
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_ngp3s"]
+_data = {
+&"RESET": SubResource("Animation_eiokd"),
+&"movimiento a subir ": SubResource("Animation_yuvu5")
+}
+
+[sub_resource type="Curve2D" id="Curve2D_yuvu5"]
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -3, 288, 0, 0, 0, 0, -3, 96)
+}
+point_count = 2
+
+[sub_resource type="Animation" id="Animation_56e56"]
 length = 0.001
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -1786,18 +1825,6 @@ tracks/1/keys = {
 "update": 0,
 "values": [0.0]
 }
-
-[sub_resource type="AnimationLibrary" id="AnimationLibrary_ngp3s"]
-_data = {
-&"RESET": SubResource("Animation_eiokd"),
-&"movimiento a subir ": SubResource("Animation_yuvu5")
-}
-
-[sub_resource type="Curve2D" id="Curve2D_yuvu5"]
-_data = {
-"points": PackedVector2Array(0, 0, 0, 0, -3, 288, 0, 0, 0, 0, -3, 96)
-}
-point_count = 2
 
 [sub_resource type="Animation" id="Animation_ngp3s"]
 resource_name = "subir y bajar"
@@ -1826,33 +1853,6 @@ tracks/1/keys = {
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
 "values": [0.0, 0.0]
-}
-
-[sub_resource type="Animation" id="Animation_56e56"]
-length = 0.001
-tracks/0/type = "value"
-tracks/0/imported = false
-tracks/0/enabled = true
-tracks/0/path = NodePath("PathFollow2D:progress_ratio")
-tracks/0/interp = 1
-tracks/0/loop_wrap = true
-tracks/0/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [0.0]
-}
-tracks/1/type = "value"
-tracks/1/imported = false
-tracks/1/enabled = true
-tracks/1/path = NodePath("PathFollow2D:rotation")
-tracks/1/interp = 1
-tracks/1/loop_wrap = true
-tracks/1/keys = {
-"times": PackedFloat32Array(0),
-"transitions": PackedFloat32Array(1),
-"update": 0,
-"values": [0.0]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_q40lw"]
@@ -1930,8 +1930,7 @@ position = Vector2(1320, 44)
 curve = SubResource("Curve2D_wys1n")
 
 [node name="PathFollow2D" type="PathFollow2D" parent="Path2D"]
-position = Vector2(232.683, 83.115)
-progress = 67.9718
+position = Vector2(168, 104)
 
 [node name="Area2D" parent="Path2D/PathFollow2D" instance=ExtResource("5_eiokd")]
 
@@ -1946,8 +1945,7 @@ position = Vector2(1473, -106)
 curve = SubResource("Curve2D_yuvu5")
 
 [node name="PathFollow2D" type="PathFollow2D" parent="Path2D2"]
-position = Vector2(-3, 175.247)
-progress = 112.75
+position = Vector2(-3, 288)
 
 [node name="Area2D" parent="Path2D2/PathFollow2D" instance=ExtResource("5_eiokd")]
 
