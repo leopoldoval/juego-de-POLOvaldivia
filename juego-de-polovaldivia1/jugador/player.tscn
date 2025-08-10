@@ -99,3 +99,16 @@ libraries = {
 }
 
 [node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="PlayerGUI" type="CanvasLayer" parent="."]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="PlayerGUI"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="FrutaLabel2" type="Label" parent="PlayerGUI/HBoxContainer"]
+layout_mode = 2
+text = "Frutas:"
+
+[node name="FrutaLabel" type="Label" parent="PlayerGUI/HBoxContainer"]
+layout_mode = 2

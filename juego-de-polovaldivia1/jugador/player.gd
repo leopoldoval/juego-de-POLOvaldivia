@@ -8,6 +8,10 @@ const gravity := 9
 
 @onready var anim := $AnimationPlayer
 @onready var sprite := $Sprite2D
+@onready var frutaslabel:= $PlayerGUI/HBoxContainer/FrutaLabel
+
+func _ready() -> void:
+	Global.Player = self
 
 func _physics_process(delta):
 	direccion = Input.get_axis("ui_left","ui_right")
@@ -26,3 +30,8 @@ func _physics_process(delta):
 		velocity.y += gravity
 	
 	move_and_slide()
+
+func actualizaInterfazFrutas():
+	frutaslabel.text = str(Global.frutas) 
+	
+	

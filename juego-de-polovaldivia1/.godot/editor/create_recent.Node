@@ -1,3 +1,6 @@
+HBoxContainer
+Label
+CanvasLayer
 Node
 CollisionShape2D
 AnimationPlayer
