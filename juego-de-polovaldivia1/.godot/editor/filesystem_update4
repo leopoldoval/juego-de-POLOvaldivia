@@ -6,3 +6,6 @@ res://plataforma/plataforma.tscn
 res://jugador/player.gd
 res://world_2.tscn
 res://fin.tscn
+res://SCRIPT/Global2.gd
+res://global.gd
+res://coleccionables/fruta.gd

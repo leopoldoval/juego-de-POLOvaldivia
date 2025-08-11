@@ -32,6 +32,8 @@ func _physics_process(delta):
 	
 	move_and_slide()
 
+	
+
 func actualizaInterfazFrutas():
 	frutaslabel.text = str(Global.frutas) 
 	

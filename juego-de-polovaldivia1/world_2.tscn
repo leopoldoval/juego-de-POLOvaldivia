@@ -1930,7 +1930,8 @@ position = Vector2(1320, 44)
 curve = SubResource("Curve2D_wys1n")
 
 [node name="PathFollow2D" type="PathFollow2D" parent="Path2D"]
-position = Vector2(168, 104)
+position = Vector2(232.683, 83.115)
+progress = 67.9718
 
 [node name="Area2D" parent="Path2D/PathFollow2D" instance=ExtResource("5_eiokd")]
 
@@ -1945,7 +1946,8 @@ position = Vector2(1473, -106)
 curve = SubResource("Curve2D_yuvu5")
 
 [node name="PathFollow2D" type="PathFollow2D" parent="Path2D2"]
-position = Vector2(-3, 288)
+position = Vector2(-3, 175.247)
+progress = 112.75
 
 [node name="Area2D" parent="Path2D2/PathFollow2D" instance=ExtResource("5_eiokd")]
 
